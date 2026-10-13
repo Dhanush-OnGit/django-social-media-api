@@ -1,0 +1,99 @@
+social_media/
+│
+├── manage.py
+│
+├── social_media/
+│   ├── settings.py
+│   ├── urls.py
+│   └── ...
+│
+├── accounts/
+│   ├── models.py
+│   ├── serializer.py
+│   ├── views.py
+│   ├── urls.py
+│   └── permission.py
+│
+├── posts/
+│   ├── models.py
+│   ├── serializer.py
+│   ├── views.py
+│   └── urls.py
+│
+├── comments/
+│   ├── models.py
+│   ├── serializer.py
+│   ├── views.py
+│   └── urls.py
+│
+├── likes/
+│   ├── models.py
+│   ├── serializer.py
+│   ├── views.py
+│   └── urls.py
+│
+└── followers/
+    ├── models.py
+    ├── serializer.py
+    ├── views.py
+    └── urls.py
+
+
+STEP 1
+Project setup
+     ↓
+STEP 2
+User Signup + Login
+     ↓
+STEP 3
+User Profile
+     ↓
+STEP 4
+Create Post
+     ↓
+STEP 5
+My Post Wall
+     ↓
+STEP 6
+Common Post Wall
+     ↓
+STEP 7
+Edit / Delete Post
+     ↓
+STEP 8
+Comments
+     ↓
+STEP 9
+Likes / Unlike
+     ↓
+STEP 10
+Follow / Unfollow
+     ↓
+STEP 11
+Following Feed
+     ↓
+STEP 12
+Final Instagram-like API
+
+eg:-
+Ajith
+ │
+ ├── Signup
+ │
+ ├── Login
+ │     └── Token
+ │
+ ├── Create Post
+ │
+ ├── View Feed
+ │     ├── Ajith's posts
+ │     ├── Vijay's posts
+ │     └── Rahul's posts
+ │
+ ├── Like Post ❤️
+ │
+ ├── Comment
+ │
+ ├── Follow Vijay
+ │
+ └── View Vijay's posts
